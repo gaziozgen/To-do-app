@@ -1,0 +1,27 @@
+.button-b {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}
+
+input {
+    display: block;
+    margin-top: 15px;
+}
+
+textarea {
+    display: block;
+    margin-top: 15px;
+}
+
+.button-g {
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgb(236, 155, 3);
+    color: white;
+}

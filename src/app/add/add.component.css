@@ -1,0 +1,28 @@
+
+input {
+    display: block;
+    margin-top: 15px;
+}
+
+textarea {
+    display: block;
+    margin-top: 15px;
+}
+
+.button-a {
+    margin-top: 10px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #57B4E9;
+    color: white;
+}
+
+.button-b {
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: brown;
+    color: white;
+}

@@ -1,0 +1,19 @@
+
+.head {
+    padding: 20px;
+    background-color: #57B4E9;
+    color: white;
+    
+}
+
+.text {
+    display: block;
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.date {
+    display: block;
+    margin-top: 0px;
+    font-size: 30px;
+}

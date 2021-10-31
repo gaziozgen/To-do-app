@@ -1,0 +1,22 @@
+<ul>
+  <li *ngFor="let item of tasks |  async   ; let i=index">
+     <div class="row">
+      <div class="col-sm-1">
+        <div *ngIf="item.checked==false" (click)="checked(item.key)"><i class="far fa-circle"></i></div>
+        <div *ngIf="item.checked==true" (click)="unchecked(item.key)"><i class="fas fa-check-circle"></i></div>
+      </div>
+      <div class="col-sm-7">
+        <b>{{item.title}}</b>
+        <p>{{item.text}}</p>
+      </div>
+      <div class="col-sm-4 right">
+        <a routerLink="/detail/{{item.key}}"><i class="fas fa-search"></i></a>
+        <a routerLink="/edit/{{item.key}}"><i class="far fa-edit"></i></a>
+        <a (click)="remove(item.key)"><i class="fas fa-times-circle"></i></a>
+      </div>
+    </div>
+  </li>
+</ul>
+<div class="button-h">
+  <a class="button-g" routerLink="/add">Add</a>
+</div>
